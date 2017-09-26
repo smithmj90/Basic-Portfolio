@@ -124,7 +124,7 @@ hr {
 }
 
 #box1 {
-	background-image: url("http://lorempixel.com/125/125/technics/1/cc/");
+	background-image: url(../images/Hangman.jpeg);
     width: 200px;
     height: 150px; 
     border: 1px solid white;
@@ -135,7 +135,7 @@ hr {
 }
 
 #box2 {
-	background-image:url("http://lorempixel.com/125/125/technics/2/cc/");
+	background-image:url(../images/RPGgame.jpeg);
     width: 200px;
     height: 150px; 
     border: 1px solid white;
@@ -146,7 +146,7 @@ hr {
 }
 
 #box3 {
-	background-image:url("http://lorempixel.com/125/125/technics/5/cc/");
+	background-image:url(../images/TriviaGame.jpeg);
     width: 200px;
     height: 150px; 
     border: 1px solid white;
@@ -158,7 +158,7 @@ hr {
 }
 
 #box4 {
-	background-image:url("http://lorempixel.com/125/125/technics/7/cc/");
+	background-image:url(../images/RIW.jpeg);
     width: 200px;
     height: 150px; 
     border: 1px solid white;
@@ -169,7 +169,7 @@ hr {
 }
 
 #box5 {
-	background-image:url("http://lorempixel.com/125/125/technics/9/cc/");
+	background-image:url(../images/RPS.jpeg);
     width: 200px;
     height: 150px; 
     border: 1px solid white;
