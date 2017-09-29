@@ -1,3 +1,5 @@
+
+/* Header design */
 header {
 	background-color: #ffffff;
 	border-style: solid;
@@ -5,11 +7,12 @@ header {
 	border-color: #cccccc;
 	width: 100%;
 }
-
+/* Apply background image*/
 body {
 	background-image: url(http://www.dickson-constant.com/medias/images/catalogue/api/m654-grey-680.jpg)  
 }
 
+/* Heading1 design */
 h1 {
 	color:white;
 	background-color: #4aaaa5; 
@@ -17,11 +20,13 @@ h1 {
 	margin-left: 15px;
 }
 
+/* Heading2 design */
 h2 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* Heading3 design */
 h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -29,11 +34,13 @@ h3 {
 
 }
 
+/* Paragraph color/font */
 p {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* Resize Bio pic */
 .resize {
 	width: 150px;
 	height: 110px;
@@ -43,6 +50,7 @@ p {
 	padding-right: 15px;
 }
 
+/* Resize social media icons */
 .resize1 {
 	width: 58px;
 	height: 57px;
@@ -52,11 +60,13 @@ p {
 	
 }
 
+/* Put bio page links to the right side of header */
 #fr {
 	float:right;
 	padding-right: 100px;
 }
 
+/* Main Bio section*/
 #division {
 	width: 650px;
 	padding: 15px;
@@ -65,6 +75,7 @@ p {
 
 }
 
+/* Portfolio section */
 #division1 {
 	width: 650px;
 	height: 850px;
@@ -77,6 +88,7 @@ p {
 	float: left;
 }
 
+/* Navigation links section */
 #nav {
 	width: 270px;
     background-color: white;
@@ -89,6 +101,7 @@ p {
 
 }
 
+/* Footer */
 footer {
 	background-color: #666666;
 	padding: 40px;
@@ -97,14 +110,17 @@ footer {
 
 }
 
+/* Change certain text color to white*/
 .white-text {
 	color:white;
 }
 
+/* Center certain text */
 #textcent {
 	text-align: center;
 }
 
+/* Submission button */
 button {
 	display: inline-block;
 	 text-align: center;
@@ -113,6 +129,7 @@ button {
 }
 
 
+/* Horizontal Line Break */
 hr {
     display: block;
     height: 1px;
