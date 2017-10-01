@@ -1,82 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-	<title>Portfolio</title>
-	
-	<!-- Relative Pathway linking HMTL/CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<!-- Header Container -->
-	<div>
-	<header>
-		
-		<!-- Links to other Pages-->
-		<p id="fr">About Portfolio Contact</p>
 
-	    <!-- h1: Headline -->
-		<h1 id="textcent">Matt Smith</h1>
-	</header>
-</div>
-	
-	<div id="division1">
-		
-		<!-- h2: Headline -->
-		<h2>Portfolio</h2>
-		
-	<hr/>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-		<!-- Hangman Link -->
-		<div id="box1">
-		<p class="boxtitle">Hangman</p>
-		</div>
-		
-		<!-- RPG Game Link -->
-		<div id="box2">
-		<p class="boxtitle">RPG Game</p>
-		</div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-		<!-- Trivia Link -->
-	    <div id="box3">
-		<p class="boxtitle">Trivia Game</p>
-		</div>
-		
-		<!-- Rutgers Info Widget Link -->
-		<div id="box4">
-		<p class="boxtitle">Rutgers Info Widget</p>	
-		</div>
-		
-		<!-- Rock Paper Scissors Link -->
-		<div id="box5">
-		<p class="boxtitle">Rock Paper Scissors</p>	
-		</div>
-</div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
 
-<!-- Navigation Container -->
-<div id="nav">
-	
-	<!-- h3: Headline -->
-	<h3>Connect with Me</h3>
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-	<hr/>
-	<!-- Social Media Link Github-->
-	<a href="https://github.com/smithmj90"><img src="assets/images/GitHub.png" alt="github"></a>
-	
-	<!-- Social Media Link LinkedIn-->
-	<a href="https://www.linkedin.com/in/matt-smith-147526ab/"><img src="assets/images/LinkedIn.png" alt="linkedIn"></a>
-	
-	<!-- Social Media Link Stackoverflow-->
-	<a href="https://stackoverflow.com/"><img class="resize1" src="assets/images/Stackoverflow.png" alt="stackoverflow"></a>
-	
-</div>
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-	<!-- Footer -->
-	<footer>
-		<p class="white-text">@ Copyright Matt Smith</p>
-	</footer>
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>

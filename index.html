@@ -1,71 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
-	<title>Basic-Portfolio</title>
-	
-	<!-- Relative Pathway linking HMTL/CSS -->
-	<!-- Add reset.css pathway link here-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<!-- Header Container -->
-	<div>
-		<header>
 
-			<!-- Links to other Pages-->
-			<p id="fr"> About Portfolio Contact</p>
-			
-			<!-- h1: Headline -->
-			<h1 id="textcent">Matt Smith</h1>
-		</header>
-	</div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	<div id="division">
-	
-	<!-- h2: Headline -->
-    <h2>About Me</h2>
-		
-	<hr/>
-	
-	<!-- Link to Profile Picture -->
-	<img class="resize" id="fl" src="assets/images/ProfilePic.jpg" alt="Matt Smith">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-		<!-- Bio -->
-		<p id="line">My name is Matt Smith and I am a participant in the 2017 UNC Coding Bootcamp. I live in Raleigh, North Carolina and love the area. Web Development and coding in general is gaining more importance in the world and I figured now is as good a time as ever to start learning. I am feeling the entire spectrum of emotion by taking this class and expect to grow a lot, both personally and professionally.</p>
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
-		<p id="line">Currently, I am working at a primary research firm in downtown Raleigh. Outside of coding, I love hiking, traveling, sports, going to concerts, and playing with my dog, Ruby.</p>
+      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
 
-	</div>
+      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
 
-	<!-- Navigation Container -->
-	<div id="nav">
+    </section>
 
-	<!-- h3: Headline -->
-	<h3>Connect with Me</h3>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-	<hr/>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-	<!-- Social Media Link Github-->
-	<a href="https://github.com/smithmj90"><img src="assets/images/GitHub.png" alt="github"></a>
-	
-	<!-- Social Media Link LinkedIn-->
-	<a href="https://www.linkedin.com/in/matt-smith-147526ab/"><img src="assets/images/LinkedIn.png" alt="linkedIn"></a>
-	
-	<!-- Social Media Link Stackoverflow-->
-	<a href="https://stackoverflow.com/"><img class="resize1" src="assets/images/Stackoverflow.png" alt="stackoverflow"></a>
-
-	</div>
-
-	<!-- Footer-->
-	<footer class="white-text">
-		@ Copyright Matt Smith
-	</footer>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
-
-
